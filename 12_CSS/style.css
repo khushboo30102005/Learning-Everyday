@@ -1,0 +1,40 @@
+body {
+  background: #333;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#main-title {
+  text-align: center;
+}
+.highlight {
+  background-color: yellow;
+  color: orangered;
+  padding: 5px;
+  border-radius: 5px;
+}
+#d1 {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 250px;
+  height: 100px;
+  background-color: hotpink;
+  margin: 10px;
+  border: 5px solid maroon;
+  padding: 10px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  background-color: gray;
+  padding: 10px;
+  gap: 10px;
+}
+.flex-item {
+  background-color: navy;
+  padding: 10px;
+  font-size: 20px;
+  width: 200px;
+}
