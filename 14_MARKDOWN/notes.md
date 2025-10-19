@@ -90,3 +90,17 @@ this is not Second Line
 
 Ths is First line.  
 this is  Second Line
+
+```markdown
+| Fruit | Color | Taste |
+| :---- | :---: | ----: |
+| Apple | Red   | Sweet |
+| Banana| Yellow| Sweet |
+| Lemon | Yellow| Sour  |
+```
+
+| Fruit | Color | Taste |
+| :---- | :---: | ----: |
+| Apple | Red   | Sweet |
+| Banana| Yellow| Sweet |
+| Lemon | Yellow| Sour  |
