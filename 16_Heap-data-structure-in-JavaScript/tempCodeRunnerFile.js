@@ -1,1 +1,0 @@
-console.log(`Extracted value: ${nextMin} | New Root: ${minHeap.peek()}`);
