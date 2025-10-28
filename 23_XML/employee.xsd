@@ -1,0 +1,16 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="employees">
+    <xs:complexType>
+      <xs:element name="employee">
+        <xs:sequence>
+          <xs:element name="name" type="xs:string" />
+          <xs:element name="gender" type="xs:string" />
+          <xs:element name="age" type="xs:integer"/>
+          <xs:element name="email" type="xs:string"/>
+          <xs:element name="phone" type="xs:string"/>
+          <xs:element name="address" type="xs:string"/>
+        </xs:sequence>
+      </xs:element>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
