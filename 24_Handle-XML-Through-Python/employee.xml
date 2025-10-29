@@ -1,12 +1,4 @@
 <employees>
-	<employee  status="active">
-		<name>Rahul</name>
-		<gender>Male</gender>
-		<age>27</age>
-		<email>rahul@gmail.com</email>
-		<phone>0123456789</phone>
-		<address>Jaipur, Rajasthan, India</address>
-	</employee>
 	<employee status="inactive">
 		<name>Rajesh</name>
 		<gender>Male</gender>
@@ -15,4 +7,11 @@
 		<phone>9876543210</phone>
 		<address>Bikaner, Rajasthan, India</address>
 	</employee>
-</employees>
+	<employee>
+		<name>kiran</name>
+		<gender>Female</gender>
+		<age>21</age>
+		<email>kiran@gmial.com</email>
+		<phone>1234567890</phone>
+		<address>xyz</address>
+	</employee>
