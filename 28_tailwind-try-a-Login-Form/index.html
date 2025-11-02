@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="script.js" defer></script>
+    <title>Login Form</title>
+  </head>
+  <body class="bg-[#D8D5FF]">
+    <!-- <h1 class="">Login Form</h1> -->
+    <main
+      class="w-[100%] max-w-5xl absolute bg-white m-auto h-130 inset-[0] text-center"
+    >
+      <div
+        class="absolute m-auto inset-[0] max-w-sm px-10 py-4 w-[100%] text-left"
+      >
+        <h2 class="text-3xl font-semibold">Login</h2>
+
+        <span class="leading-[4]">Hii,welcome back</span>
+        <img class="inline" src="waving-hand.png" alt="" width="30" />
+
+        <button
+          class="max-w-[380px] w-[100%] py-3 border-gray-500 border rounded-lg font-semibold hover:bg-[#D8D5FF]"
+        >
+          <img class="inline mr-4" width="20" src="google.png" alt="google" />
+          Login with Google
+        </button>
+        <div class="text-center py-4">
+          <p>or Login with E-mail</p>
+        </div>
+        <form id="myForm" action="">
+          <label for="email">E-mail</label> <br />
+          <input
+            id="emailInput"
+            class="max-w-[380px] my-2 px-2 w-[100%] py-2 border-gray-500 border rounded-lg"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E.g.johndoe@gmain.com"
+          />
+          <br />
+          <label for="password">Password</label> <br />
+          <input
+            id="passwordInput"
+            class="max-w-[380px] my-2 px-2 w-[100%] py-2 border-gray-500 border rounded-lg"
+            type="password"
+            id="password"
+            name="password"
+            placeholder="John@123"
+          />
+          <br />
+          <input type="checkbox" id="check" value="Reminder" />
+          <label for="check_Reminder">Remember Me</label>
+
+          <button
+            class="max-w-[380px] w-[100%] py-2 my-4 border-gray-500 border rounded-lg font-semibold bg-[#D8D5FF] hover:bg-blue-600 text-white"
+          >
+            Login
+          </button>
+        </form>
+        <p id="message" class="text-center font-semibold mt-2 "></p>
+
+      </div>
+    </main>
+  </body>
+</html>
