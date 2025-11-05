@@ -1,0 +1,17 @@
+
+{
+  "name": "Rahul",
+  "age": 22,
+  "is_active": true,
+  "client": {
+    "id": "101A",
+    "username": "rahul123"
+  },
+  "score": [
+    {
+      "f1": 21,
+      "f2": 25,
+      "f3": 39
+    }
+  ]
+}
