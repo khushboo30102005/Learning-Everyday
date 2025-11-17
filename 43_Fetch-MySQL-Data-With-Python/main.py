@@ -4,7 +4,7 @@ def fetchEmployee(cursor):
   return list(cursor)
 def main():
   try:
-    mydb = mysql.connector.connect(host='localhost', user='root', password='Arvind@10799', database='college')
+    mydb = mysql.connector.connect(host='localhost', user='root', password='********', database='college')
     if mydb.is_connected():
       print('MySQL database connected')
       cursor = mydb.cursor()
