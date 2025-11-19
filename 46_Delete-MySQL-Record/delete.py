@@ -11,7 +11,7 @@ def deleteEmployee(cursor, emp):
 
 def main():
   try:
-    mydb = mysql.connector.connect(host='localhost', user='root', password='Arvind@10799', database='college')
+    mydb = mysql.connector.connect(host='localhost', user='root', password='*********', database='college')
     if mydb.is_connected():
       print('Database connect.')
       cursor = mydb.cursor()
