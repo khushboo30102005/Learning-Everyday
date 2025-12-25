@@ -81,7 +81,7 @@ Quartiles are widely used for:
 
 
 
-## 8. Summary
+## 7. Summary
 
 Quartiles simplify complex datasets by breaking them into meaningful parts.  
 They form the backbone of **box plots** and play a crucial role in **statistical analysis and data science**.
